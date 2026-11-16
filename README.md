@@ -1,34 +1,8 @@
-# ResumeAI – Smart AI Resume Analyzer & ATS Optimizer (React & JavaScript)
+# ResuMate – Smart AI Resume Analyzer & ATS Optimizer (React & JavaScript)
 
-ResumeAI is a modern, production-grade AI-powered Resume Analyzer web application built **100% in JavaScript & React**.
+ResuMate is a modern, production-grade AI-powered Resume Analyzer web application built **100% in JavaScript & React**.
 
-> [!TIP]
-> **Zero Python Required!** All resume extraction (PDF & DOCX), transparent 6-category ATS scoring, keyword matching, STAR method bullet point rewriting, and history comparison run directly in the browser with Node.js and Vite.
-
----
-
-## 1. Quick Start (Run in 2 Steps)
-
-### Step 1: Open Terminal in VS Code
-Ensure you are in the project folder:
-```powershell
-cd C:\Users\hp\.gemini\antigravity\scratch\resume-ai
-```
-
-### Step 2: Install & Start Development Server
-```powershell
-npm install
-npm run dev
-```
-
-Your browser will automatically open:
-👉 **`http://localhost:5173`**
-
-*(Press `o` + `Enter` in the terminal to open the browser if it does not open automatically).*
-
----
-
-## 2. Completed Features
+## 1. Completed Features
 
 ### A. Authentication & Profiles
 - Register and login forms with persistent browser session.
@@ -71,59 +45,3 @@ Your browser will automatically open:
 
 ---
 
-## 3. Google Gemini AI Integration (Optional)
-
-ResumeAI works out-of-the-box using its built-in rule-based and heuristic ATS scoring engine.
-
-If you want live Gemini AI generation:
-1. Open the app and go to **Profile & Settings**.
-2. Paste your Google Gemini API key into the **Gemini API Key** field.
-3. Click **Save AI Settings**.
-*(You can get a free Gemini API key from [aistudio.google.com](https://aistudio.google.com/)).*
-
----
-
-## 4. Project Structure
-
-```
-resume-ai/
-├── package.json                    # React 18, Vite, Tailwind CSS, Lucide, Recharts, jsPDF, pdfjs-dist, mammoth
-├── vite.config.js                  # Vite server configuration
-├── tailwind.config.js              # SaaS brand palette & font configuration
-├── postcss.config.js               # PostCSS plugins
-├── index.html                      # HTML5 template with Inter typography
-├── .env.example                    # Environment template
-├── .env                            # Active environment configuration
-├── src/
-│   ├── main.jsx                    # React entry point
-│   ├── App.jsx                     # Core application router & state coordinator
-│   ├── index.css                   # Tailwind styles, custom scrollbar & print stylesheet
-│   ├── context/
-│   │   └── AuthContext.jsx         # Authentication provider (localStorage, demo login, user state)
-│   ├── services/
-│   │   ├── extractor.js            # In-browser PDF & DOCX text extraction
-│   │   ├── atsScorer.js            # Transparent 6-pillar ATS scoring & action verb engine
-│   │   ├── geminiService.js        # Google Gemini REST API client & heuristic fallback
-│   │   ├── historyService.js       # LocalStorage persistence & side-by-side comparison
-│   │   └── pdfExport.js            # High-fidelity downloadable PDF report generator
-│   ├── components/
-│   │   ├── Navbar.jsx              # Navigation bar with user profile & brand logo
-│   │   ├── Sidebar.jsx             # Collapsible SaaS workspace sidebar
-│   │   ├── ScoreGauge.jsx          # Circular animated ATS score gauge (0-100)
-│   │   ├── CategoryBreakdown.jsx   # 6-category weighted progress bars
-│   │   ├── SkillBadges.jsx         # Color-coded matching (green) & missing (red) skills
-│   │   ├── FileUpload.jsx          # Drag & drop upload with validation (<10MB)
-│   │   └── LoadingState.jsx        # Multi-stage progressive AI analysis animation
-│   └── pages/
-│       ├── LandingPage.jsx         # SaaS landing hero, pillars, and live preview
-│       ├── LoginPage.jsx           # User sign-in with 1-click Demo Account launcher
-│       ├── RegisterPage.jsx        # Registration with target role & seniority
-│       ├── Dashboard.jsx           # Overview, ATS gauge, score distribution chart
-│       ├── UploadPage.jsx          # PDF/DOCX dropzone, text paste & role targeting
-│       ├── AnalysisResultsPage.jsx # Full score report, strengths, weaknesses, PDF export
-│       ├── JobMatchPage.jsx        # Job description matcher & missing keyword detector
-│       ├── ResumeImproverPage.jsx  # Side-by-side STAR rewriter with power verbs
-│       ├── HistoryPage.jsx         # Version history and side-by-side comparison
-│       └── ProfileSettingsPage.jsx # Candidate preferences & Gemini AI health monitor
-└── README.md
-```
