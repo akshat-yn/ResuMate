@@ -1,0 +1,37 @@
+ALEX MORGAN
+San Francisco, CA | (555) 234-5678 | alex.morgan@email.com
+linkedin.com/in/alexmorgan-dev | github.com/alexmorgan-dev
+
+PROFESSIONAL SUMMARY
+Results-driven Senior Full Stack Software Engineer with 6+ years of experience architecting high-throughput distributed web applications and cloud microservices. Proven track record of improving database query performance by 42% and driving 99.9% application uptime.
+
+TECHNICAL SKILLS
+Languages: Python, JavaScript, TypeScript, SQL, Go, HTML5, CSS3
+Frameworks & Libraries: FastAPI, Django, React, Node.js, Express, Tailwind CSS, Next.js
+Databases & Tools: PostgreSQL, Redis, MongoDB, Docker, Kubernetes, AWS (EC2, S3, RDS), Git, GitHub Actions, CI/CD
+Methodologies: RESTful API Design, Microservices, Agile/Scrum, Unit Testing (PyTest, Jest)
+
+PROFESSIONAL EXPERIENCE
+CloudTech Solutions – San Francisco, CA
+Senior Software Engineer | 2022 – Present
+• Architected and deployed microservices backend utilizing FastAPI and PostgreSQL, serving 3M+ daily requests.
+• Decreased database query latency by 42% through query index restructuring and Redis caching layers.
+• Spearheaded migration of legacy monolithic system to containerized Docker microservices orchestrated on AWS ECS.
+• Mentored 4 junior engineers on clean architecture patterns, code review best practices, and test-driven development.
+
+NexaCorp Dynamics – Austin, TX
+Software Engineer | 2019 – 2022
+• Developed modular, responsive user interfaces in React and TypeScript, boosting customer engagement by 28%.
+• Engineered secure REST APIs using Python and Django to automate financial workflows handling $12M+ monthly transactions.
+• Automated deployment pipelines via GitHub Actions CI/CD, reducing software release cycles by 50%.
+• Authored comprehensive automated test suites achieving 88% overall code coverage.
+
+EDUCATION
+University of California, Berkeley
+Bachelor of Science in Computer Science | 2019
+GPA: 3.8 / 4.0 | Honors: Dean’s Honor List
+
+KEY PROJECTS
+DevPulse – Cloud Developer Observability Platform
+• Built an open-source analytics dashboard utilizing React, FastAPI, and PostgreSQL.
+• Processed real-time GitHub commit metrics for over 1,500 active developer repositories.
